@@ -8,9 +8,9 @@
         body {
             margin: 0;
             padding: 0;
-            background: linear-gradient(135deg, #ff9a9e, #fad0c4);
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            color: #fff;
+            background: linear-gradient(135deg, #a2c2e8, #f1e5f2);
+            font-family: 'Roboto', sans-serif;
+            color: #333;
             text-align: center;
             display: flex;
             justify-content: center;
@@ -19,11 +19,11 @@
             overflow: hidden;
         }
         .container {
-            background: #fff;
+            background: #ffffff;
             color: #333;
-            border-radius: 12px;
-            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
-            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+            padding: 50px;
             width: 90%;
             max-width: 600px;
             margin: auto;
@@ -31,16 +31,16 @@
             animation: fadeIn 1.5s ease-out;
         }
         h1 {
-            font-size: 3em;
+            font-size: 2.5em;
             margin: 0;
-            color: #ff5e99;
-            animation: slideIn 1s ease-out;
+            color: #ff77a9;
+            animation: fadeInUp 1s ease-out;
         }
         p {
-            font-size: 1.2em;
+            font-size: 1.1em;
             margin: 20px 0;
             color: #555;
-            animation: fadeInUp 1s ease-out;
+            animation: fadeInUp 1.2s ease-out;
         }
         .contact-form {
             margin-top: 30px;
@@ -58,10 +58,10 @@
         }
         .form-group input,
         .form-group textarea {
-            width: calc(100% - 20px);
+            width: calc(100% - 24px);
             padding: 12px;
             border: 1px solid #ddd;
-            border-radius: 8px;
+            border-radius: 10px;
             box-sizing: border-box;
             font-size: 1em;
         }
@@ -71,25 +71,21 @@
         .form-group button {
             padding: 12px 20px;
             border: none;
-            border-radius: 8px;
-            background: #ff5e99;
-            color: #fff;
+            border-radius: 10px;
+            background: #ff77a9;
+            color: #ffffff;
             font-size: 1.1em;
             cursor: pointer;
             transition: background 0.3s ease, transform 0.3s ease;
         }
         .form-group button:hover {
-            background: #e54e7e;
+            background: #e65c8a;
             transform: scale(1.05);
         }
         /* Animations */
         @keyframes fadeIn {
             from { opacity: 0; }
             to { opacity: 1; }
-        }
-        @keyframes slideIn {
-            from { transform: translateY(-30px); opacity: 0; }
-            to { transform: translateY(0); opacity: 1; }
         }
         @keyframes fadeInUp {
             from { opacity: 0; transform: translateY(20px); }
@@ -100,8 +96,8 @@
 <body>
     <div class="container">
         <h1>Under Construction</h1>
-        <p>We’re currently building something amazing. Please check back soon!</p>
-        <p>If you have any questions or need to get in touch, please use the form below:</p>
+        <p>We’re currently working on something exciting. Check back soon!</p>
+        <p>If you have any questions or need to reach us, please use the form below:</p>
         
         <div class="contact-form">
             <form action="https://formspree.io/f/xanwolpn" method="POST">
